@@ -28,10 +28,13 @@ void login() {
 
     } while (errCounter < 3 && Pin != userPin);
 
-    if (errCounter < 3){
-        cout << "              Welcome BBT Bank                 " << endl;
 
-                cout << "           BBT-Bank "                     << endl;
+    if (errCounter < 3) {
+            cout << "              Welcome BBT Bank" << endl;
+
+            cout << "           BBT-Bank " << endl;
+
+   
 
             cout << "********************MENU*****************" << endl;
             cout << "*>> 1. Check Balance                      *" << endl;
@@ -44,12 +47,15 @@ void login() {
             cout << "*                                         *" << endl;
             cout << "*>> 5. Exit                               *" << endl;
             cout << "******************************************" << endl;
-    }else {
-        cout << "Blocked" << endl;
-    }
-        
+        }
+        else {
+            cout << "Blocked" << endl;
+        }
 
 
+
+
+    
 
 }
 
