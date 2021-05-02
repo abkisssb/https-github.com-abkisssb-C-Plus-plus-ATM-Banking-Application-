@@ -30,7 +30,7 @@ void login() {
 
 
     if (errCounter < 3) {
-            cout << "              Welcome BBT Bank" << endl;
+        cout << "              Welcome BBT Bank" << endl;
 
             cout << "           BBT-Bank " << endl;
 
@@ -49,9 +49,9 @@ void login() {
             cout << "******************************************" << endl;
         }
         else {
-            cout << "Blocked" << endl;
-        }
-
+        cout << "Blocked" << endl;
+    }
+        
 
 
 
